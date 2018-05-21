@@ -1,0 +1,8 @@
+file=open(r'C:\Users\Administrator\Desktop\daqiu.txt','r+')
+cat=file.read()
+file.seek(0)
+file.write('人是有梦想的')
+# cat1=file.readline()
+# cat2=file.readlines()
+print(cat)
+file.close()

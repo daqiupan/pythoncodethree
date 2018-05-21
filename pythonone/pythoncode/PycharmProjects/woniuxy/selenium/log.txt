@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\woniuxy\测试\项目1.py", line 27, in <module>
+    kaishi().xiexin()
+  File "C:\Users\Administrator\PycharmProjects\woniuxy\测试\项目1.py", line 20, in xiexin
+    self.wd.find_element_by_xpath('//*[@id="rank"]/ul/li[2]/a').click()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium-2.53.2-py3.5.egg\selenium\webdriver\remote\webdriver.py", line 290, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium-2.53.2-py3.5.egg\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium-2.53.2-py3.5.egg\selenium\webdriver\remote\webdriver.py", line 231, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium-2.53.2-py3.5.egg\selenium\webdriver\remote\remote_connection.py", line 395, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium-2.53.2-py3.5.egg\selenium\webdriver\remote\remote_connection.py", line 426, in _request
+    resp = self._conn.getresponse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\lib\http\client.py", line 1197, in getresponse
+    response.begin()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
