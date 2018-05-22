@@ -2,7 +2,6 @@ from selenium import webdriver
 from oneyun.tinyshop1 import ceoone
 from selenium.webdriver.support.select import Select
 import time
-fddjhs
 
 class dagone:
     def dagtwo(self):
